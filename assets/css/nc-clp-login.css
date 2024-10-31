@@ -1,0 +1,106 @@
+/* MyPlugin - Custom Login Styles */
+
+.nc-clp-login-message {
+    margin-bottom: 20px;
+
+}
+.login .message{
+    margin-top: 20px;
+    color: #444;
+}
+.login .success{
+    margin-top: 20px;
+    color: #444;
+}
+.login #login_error{
+    margin-top: 20px;
+    color: #444;
+}
+
+
+/*
+
+body.login {
+    background-color: rgba(107, 110, 113, 0.71);
+    color:white;
+    background-image: url("https://images3.alphacoders.com/282/28237.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+
+}
+
+body.login div#login form#loginform {
+    border-radius: 10px;
+}
+
+.login .custom-message {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#nc-clp-login-message {
+    margin-bottom: 20px;
+}
+
+
+!*
+LOGIN FORM
+ *!
+#loginform{
+    background-color: rgba(0,0,0,0.5);
+    border: 0;
+}
+#loginform input{
+    background: rgba(255,255,255,0.4);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    border: 0;
+    -webkit-text-fill-color: white;
+   // -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+    transition: background-color 5000s ease-in-out 0s;
+    color: white;
+    background: rgba(255,255,255,0.4);
+}
+
+button span{
+    color:white;
+}
+
+.message{
+    color: black;
+}
+.login #nav a{
+    display: block;
+    color:white;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.4);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.login #nav a:hover{
+    color: #c6c4c4;
+}
+
+.login #backtoblog a{
+    color:white;
+}
+.login #backtoblog a:hover{
+    color: #c6c4c4;
+}
+
+#lostpasswordform{
+    background-color: rgba(0,0,0,0.5);
+}
+*/
+

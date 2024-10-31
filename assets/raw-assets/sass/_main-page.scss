@@ -1,0 +1,253 @@
+// LOGIN PAGE
+// MENU RESET ICON
+.menu-top {
+  .toplevel_page_nuevecubica-custom-login-page-options {
+    .wp-menu-image {
+      img {
+        padding:  6px 0 0 4px !important;
+      }
+    }
+  }
+}
+
+#adminmenu{
+  .wp-menu-image {
+    img {
+      padding:  4px 0 0 0px !important;
+    }
+  }
+}
+
+
+// MAIN PAGE
+#nc-clp-main-page {
+  background-color: $nc-plugin-background;
+  margin: 20px 20px 20px 0px;
+  padding: 20px;
+  border-radius: 10px;
+  color: $nc-text;
+  // IMAGE LOGO
+  .img-logo {
+    width: 100px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $nc-text;
+
+    span {
+      font-size: xx-small;
+    }
+  }
+
+  p {
+    color: $nc-text;
+  }
+
+  hr {
+
+  }
+
+  table {
+    &.form-table {
+      display: block;
+      width: 100%;
+      background-color: $nc-blue-10;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+  }
+
+  // MAIN LOGIN PAGE
+  .nc-clp-main-plugin-page {
+    select {
+      &[id^="nc_clp_options_"] {
+        display: block;
+        width: 287px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 0;
+        box-shadow: 1px 1px 1px 1px $black-30;
+        background-color: $white-10;
+        color: $black-50;
+
+        &:focus {
+          box-shadow: inset 1px 1px 1px 1px $black-20;
+          background-color: $white;
+          border: 0;
+
+        }
+      }
+    }
+
+    // INPUT TEXT
+    input[type="text"], input[type="number"] {
+      &[id^="nc_clp_options_"] {
+        padding: 10px;
+        border-radius: 10px;
+        margin: 4px 0 8px 0;
+        border: 0;
+        box-shadow: 1px 1px 1px 1px $black-30;
+        background-color: $white-10;
+        color: $black-50;
+        transition: all 1s ease-in-out;
+
+        &:hover {
+          box-shadow: inset 1px 1px 1px 1px $black-20;
+          background-color: $white;
+          opacity: .9;
+          outline: 0;
+        }
+
+        &:focus {
+          box-shadow: inset 1px 1px 1px 1px $black-20;
+          background-color: $white;
+          //border: 1px solid $black-10;
+          opacity: .9;
+          outline: 0;
+        }
+      }
+    }
+
+    [id^="nc_clp_thumb_nail_"] {
+      width: 243px;
+      background-color: $black-10;
+      border-radius: 20px;
+      padding: 30px;
+      border: 1px solid;
+    }
+  }
+
+  // MAIN PLUGIN FORM
+  #nc-clp-form-holder {
+    .col-one {
+      width: 50%;
+
+      #nc-clp-form {
+        position: relative;
+        max-height: 450px;
+        overflow: auto;
+      }
+    }
+
+    .col-two {
+      width: 50%;
+      padding: 0 20px;
+    }
+  }
+
+  // SHOW CHANGES
+
+  .nc-clp-page-title {
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+    span {
+      font-weight: bolder;
+    }
+  }
+
+  .nc-clp-page-display {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+
+
+    .nc-clp-logo-display {
+      display: block;
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+    }
+
+    .nc-clp-message-display {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    .nc-clp-form-display {
+      .wp-pwd {
+        position: relative;
+
+
+        .dashicons {
+          position: absolute;
+          top: 14px;
+          right: 10px;
+        }
+
+      }
+    }
+  }
+
+  // display buttons
+  .forgetmenot {
+    display: inline-block;
+    float: left;
+  }
+
+  #wp-submit {
+    display: inline-block;
+    float: right;
+  }
+}
+
+
+//
+
+.nc-info-support-donate-thanks {
+  text-align: center;
+
+  ul {
+    list-style: none;
+
+    li {
+      padding: 0;
+      display: inline-block;
+
+      &:after {
+        content: " | ";
+        width: 100%;
+      }
+
+      &:last-child {
+        &:after {
+          content: "";
+        }
+      }
+    }
+  }
+}
+
+
+// MESSAGES
+
+.nc-alert {
+  padding: 10px;
+  color: white !important;
+  display: block;
+  max-width: 600px;
+  font-weight: bolder;
+  border-radius: 4px;
+
+  &.primary {
+    background-color: $nc-blue;
+  }
+
+  &.warning {
+    background-color: $orange;
+  }
+
+  &.danger {
+    background-color: $red;
+  }
+
+  &.sucess {
+    background-color: $green;
+  }
+}
+
+

@@ -1,0 +1,106 @@
+# nuevecubica
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Custom Fields Pro v5.2.9\n"
+"Report-Msgid-Bugs-To: http://support.nuevecubica.net\n"
+"POT-Creation-Date: 2017-06-27 15:35+1000\n"
+"PO-Revision-Date: 2018-02-06 10:05+1000\n"
+"Last-Translator: alex vaught <e@elliotcondon.com>\n"
+"Language-Team: Héctor Garrofé <info@hectorgarrofe.com>\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: acf.php\n"
+"X-Textdomain-Support: yes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/admin-menu.php:12
+msgid "Custom Login"
+msgstr "Login Personalizado"
+
+#: admin/settings-register.php:35
+msgid "Customize Page Logo"
+msgstr "Página de customización del Logo"
+
+#: admin/settings-register.php:42
+msgid "Customize Body Area"
+msgstr ""
+
+#: admin/settings-register.php:59
+msgid "Custom URL"
+msgstr ""
+
+#: admin/settings-register.php:63
+msgid "Custom URL for the login logo link"
+msgstr ""
+
+#: admin/settings-register.php:68
+msgid "Custom Image"
+msgstr ""
+
+#: admin/settings-register.php:72
+msgid "Custom IMG for the login logo"
+msgstr ""
+
+#: admin/settings-register.php:77
+msgid "Custom Title"
+msgstr ""
+
+#: admin/settings-register.php:81
+msgid "Custom title attribute for the logo link"
+msgstr ""
+
+#: admin/settings-register.php:88
+msgid "Custom Message"
+msgstr ""
+
+#: admin/settings-register.php:92
+msgid "Custom text and/or markup"
+msgstr ""
+
+#: admin/settings-register.php:97
+msgid "Custom Background Color"
+msgstr ""
+
+#: admin/settings-register.php:101
+msgid "Custom background Color"
+msgstr ""
+
+#: nuevecubica-custom-login-page.php:88
+msgid "Powered by nuevecubica"
+msgstr ""
+
+#: nuevecubica-custom-login-page.php:90
+msgid "My custom message"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "nuevecubica | Custom Login Page"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://nuevecubica.net/wp-plugins/nuevecubica-custom-login-page"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"nuevecubica |<strong> Custom Login Page</strong> is a beautiful word press "
+"Login Page Customizer plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alex Vaught"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wp.nuevecubica.dev"
+msgstr ""
